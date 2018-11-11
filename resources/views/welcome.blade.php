@@ -74,7 +74,7 @@
           <p class="mb-5">High motivation person, good logic, quick learn, and good teamwork adaptability. Open for opportunities for a position that will allow me to use my Diploma of Information Engineering, my CCNA,  my practical experience, and the strength of me as well as my eagerness to contribute to the company. Moreover, I open to learn new things in order to complement the role of company’s growth.</p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
-              <a href="https://www.facebook.com/jody.almeyda">
+              <a href="https://www.facebook.com/jody.almeyda" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -82,7 +82,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.instagram.com/almaidajody/">
+              <a href="https://www.instagram.com/almaidajody/" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
@@ -90,7 +90,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/jody-almaida-putra-667772ab/">
+              <a href="https://www.linkedin.com/in/jody-almaida-putra-667772ab/" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -98,7 +98,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://github.com/medivh13">
+              <a href="https://github.com/medivh13" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
