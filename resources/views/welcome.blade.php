@@ -71,7 +71,7 @@
           <div class="subheading mb-5">Daan Mogot Baru, Bedugul Street Block 1A 14 Kalideres West Jakarta 11840, Jakarta, Indonesia· (+62) 87825913730 ·
             <a href="mailto:jody.almaida@gmailcom">jody.almaida@gmail.com</a>
           </div>
-          <p class="mb-5">High motivation person, good logic, quick learn, and good teamwork adaptability. Open for opportunities for a position that will allow me to use my Diploma of Information Engineering, my CCNA,  my practical experience, and the strength of me as well as my eagerness to contribute to the company. Moreover, I am open to learning new things in order to complement the role of company’s growth.</p>
+          <p class="mb-5">High motivation person, good logic, quick learn, and good teamwork adaptability. Open for opportunities for a position that will allow me to use my Diploma of Information Engineering, my CCNA,  my practical experience, and the strength of me as well as my eagerness to contribute to the company. Moreover, I open to learn new things in order to complement the role of company’s growth.</p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
               <a href="https://www.facebook.com/jody.almeyda">
