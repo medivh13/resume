@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Resume - Start Bootstrap Theme</title>
+    <title>Jody Almaida P.</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('templates/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -21,7 +21,7 @@
     <link href="{{ asset('templates/vendor/simple-line-icons/css/simple-line-icons.css') }}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="{{ asset('templates/css/resume.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('templates/css/resume.css') }}" rel="stylesheet">
 
   </head>
 
@@ -29,9 +29,9 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-block d-lg-none">Jody Almaida P.</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{{ asset('templates/img/profile.png') }}" alt="">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{{ asset('templates/img/profile.jpg') }}" alt="">
         </span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,15 +66,15 @@
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
           <h1 class="mb-0">Jody
-            <span class="text-primary">Almaida</span>
+            <span class="text-primary">Almaida P.</span>
           </h1>
-          <div class="subheading mb-5">12 Alley 2, Singkep Street · Cilacap, 53231 · (+62) 87825913730 ·
+          <div class="subheading mb-5">Daan Mogot Baru, Bedugul Street Block 1A 14 Kalideres West Jakarta 11840, Jakarta, Indonesia· (+62) 87825913730 ·
             <a href="mailto:jody.almaida@gmailcom">jody.almaida@gmail.com</a>
           </div>
-          <p class="mb-5">High motivation person, good logic, quick learn, and good teamwork adaptability. Looking for a position that will allow me to use my Diploma of Information Engineering, my CCNA,  my practical experience, and the strength of me as well as my eagerness to contribute to the company. Moreover, I am open to learning new things in order to complement the role of company’s growth.</p>
+          <p class="mb-5">High motivation person, good logic, quick learn, and good teamwork adaptability. Open for opportunities for a position that will allow me to use my Diploma of Information Engineering, my CCNA,  my practical experience, and the strength of me as well as my eagerness to contribute to the company. Moreover, I am open to learning new things in order to complement the role of company’s growth.</p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.facebook.com/jody.almeyda">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -82,15 +82,15 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.instagram.com/almaidajody/">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/jody-almaida-putra-667772ab/">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -98,7 +98,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://github.com/medivh13">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -112,51 +112,57 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
           <h2 class="mb-5">Experience</h2>
-
+          
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Full-Stack Developer</h3>
-              <div class="subheading mb-3">PT. Langit Asia Fortune</div>
-              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+              <h3 class="mb-0">Software Engineer</h3>
+              <div class="subheading mb-3">PT. Fiture Teknologi Inovasi</div>
+              <p>Lead a delegation team which is developing a custom ERP system for clients. My responsibilities are meet and translating client's requirement, Analyzing the data and system flow, designing the data's structure, and also do the coding. Using Laravel 5.5, NoSQL DB (MongoDB), Apache web server on ubuntu, Laravel Scheduler, and Laravel Queue.</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">May 2017 - Present</span>
+              <span class="text-secondary">May 2018 to Present</span>
             </div>
           </div>
-
-          <!--<div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Programmer</h3>
+              <div class="subheading mb-3">Diskominfo Cilacap</div>
+              <p>Developing E-Planning System for regional Cilacap. My responsibilities are meet and translating client's requirement, Analyzing the data and system flow, designing the data's structure, and also do the coding. Using Laravel 5.5, SQL DB (MySql), Apache web server on centos.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-secondary">Feb 2017 to May 2018</span>
+            </div>
+          </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+              <div class="subheading mb-3">PT. Langit Asia Fortune</div>
+              <p>Developing a Product based on web application named Ortwo School Management System. My responsibilities are to write the program code based on the analysis, data's structure, and UI/UX mock-up. Using Laravel 5.1, SQL DB (MySQL), Apache web server on centos.</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">December 2011 - March 2013</span>
+              <span class="text-secondary">May 2017 - May 2018</span>
             </div>
           </div>
-
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Junior Web Designer</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+              <h3 class="mb-0">Programmer</h3>
+              <div class="subheading mb-3">Self Employed</div>
+              <p>Analyzing client requirement, data and system flow, designing data's structure, and developing. Mostly using Vb.Net and C# .Net on visual studio 2008, 2010, 2012, 2015, and SQL Server 2005 and 2008.</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">July 2010 - December 2011</span>
+              <span class="text-secondary">Aug 2014 to May 2017</span>
             </div>
           </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Design Intern</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+              <h3 class="mb-0">Junior Programmer</h3>
+              <div class="subheading mb-3">Engineering Center State Polytech of Cilacap</div>
+              <p>Developing a Financial System based on Dekstop Client Server using vb.Net on visual studio 2008 and SQL Server 2005.</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">September 2008 - June 2010</span>
+              <span class="text-secondary">Nov 2011 to Nov 2012</span>
             </div>
-          </div>-->
-
+          </div>
         </div>
 
       </section>
@@ -167,27 +173,15 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Polytech Negeri Cilacap</h3>
+              <h3 class="mb-0">State Polytechnic Of Cilacap</h3>
               <div class="subheading mb-3">Diploma</div>
-              <div>Computer Science</div>
+              <div>Information Engineering</div>
               <p>GPA: 3.16</p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">September 2011 - August 2014</span>
             </div>
           </div>
-
-          <!--<div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">James Buchanan High School</h3>
-              <div class="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2002 - May 2006</span>
-            </div>
-          </div>-->
-
         </div>
       </section>
 
@@ -243,13 +237,13 @@
               <i class="devicons devicons-sublime"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-atom"></i>
-            </li>
-            <li class="list-inline-item">
               <i class="devicons devicons-atlassian"></i>
             </li>
             <li class="list-inline-item">
               <i class="devicons devicons-bitbucket"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-git"></i>
             </li>
           </ul>
 
@@ -274,8 +268,8 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+          <p>Apart from being a web developer, I enjoy most of my time being together with my family, and reading.</p>
+          <p class="mb-0">I follow a number of slice of life, fiction, mystery, and fantasy genre movies and television drama. And I also spend my free time exploring the latest technolgy advancements in the front-end web development world.</p>
         </div>
       </section>
 
@@ -285,7 +279,7 @@
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              CISCO - Routing And Switching Essentials</li>
+              CISCO - Letter of John Chamber in Routing And Switching Essentials</li>
             <!--<li>
               <i class="fa-li fa fa-trophy text-warning"></i>
               Mobile Web Specialist - Google Certification</li>
