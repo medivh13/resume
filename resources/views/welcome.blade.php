@@ -130,7 +130,7 @@
               <p>Developing E-Planning System for regional Cilacap. My responsibilities are meet and translating client's requirement, Analyzing the data and system flow, designing the data's structure, and also do the coding. Using Laravel 5.5, SQL DB (MySql), Apache web server on centos.</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-secondary">Feb 2017 to May 2018</span>
+              <span class="text-secondary">Feb 2018 to May 2018</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
