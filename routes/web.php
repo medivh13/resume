@@ -11,8 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', 'Frontend\BlogController@index');
+
+Route::get('/jody-almaida', function(){
+	return view('welcome');
 });
 
 Auth::routes();

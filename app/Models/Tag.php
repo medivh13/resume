@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Tag extends Model
+{
+	protected $table = 'tb_tag';
+    protected $fillable = ['name'];
+
+    public function posts()
+    {
+        return $this->belongsToMany(Post::class)->withTimestamps(); //milik banyak post
+    }
+}
