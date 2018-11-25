@@ -291,8 +291,8 @@
 									<div class="card card_largest_with_image grid-item">
 										<img class="card-img-top" src="{{URL('avision-master/images/soon.jpg')}}" alt="">
 										<div class="card-body">
-											<div class="card-title"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<p class="card-text">Pick the yellow peach that looks like a sunset with its red, orange, and pink coat skin, peel it off with your teeth. Sink them into unripened...</p>
+											<div class="card-title"><a href="post.html">Mohon Doanya dan Dukungannya ya Agar Segera Release</a></div>
+											<p class="card-text">Dengan waktu senggang yg cukup terbatas, mungkin perkembanga artikel tutorialnya akan cukup lambat, namun tetap akan saya usahakan untuk sering update. Terimakasih..</p>
 											<small class="post_meta"><a href="">Jody Almaida P.</a><span>Nov 25, 2018 at 9:48 am</span></small>
 										</div>
 									</div>
