@@ -5,6 +5,8 @@ namespace App\Http\Controllers\FrontEnd;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Post;
+use App\Models\Category;
+use App\Models\Tag;
 
 class BlogController extends Controller
 {
@@ -15,7 +17,7 @@ class BlogController extends Controller
      */
     public function index(Request $request)
     {
-        $data = Post::when($request->search, function($query) use($request) {
+        $post= Post::when($request->search, function($query) use($request) {
                         $search = $request->search;
                         
                         return $query->where('title', 'like', "%$search%")
@@ -26,7 +28,9 @@ class BlogController extends Controller
                     // ->published()
                     ->simplePaginate(5); 
 
-        return view('frontend.index', $data);
+        
+        // dd($post);
+        return view('frontend.index', compact('post')); 
     }
 
     /**
@@ -56,9 +60,15 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Request $request)
     {
-        //
+        dd($request->all());
+        $post= Post::where('slug',$request->slug)->with('tags', 'category')
+                    // ->withCount('comments')
+                    // ->published()
+                    ->first();
+        dd($post);
+        return view('frontend.post', compact('post'));
     }
 
     /**
@@ -93,5 +103,16 @@ class BlogController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function post(Request $request)
+    {
+        // dd($request->slug);
+        $post= Post::where('slug',$request->slug)->with('tags', 'category')
+                    // ->withCount('comments')
+                    // ->published()
+                    ->first();
+        // dd($post);
+        return view('frontend.post', compact('post'));
     }
 }

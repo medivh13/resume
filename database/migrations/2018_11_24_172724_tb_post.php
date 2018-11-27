@@ -13,8 +13,8 @@ class TbPost extends Migration
      */
     public function up()
     {
-        if(!Schema::hasTable('tb_post')){
-            Schema::create('tb_post',function(Blueprint $table){
+        if(!Schema::hasTable('posts')){
+            Schema::create('posts',function(Blueprint $table){
               $table->increments('id');
               $table->string('title');
               $table->string('slug');
@@ -32,6 +32,6 @@ class TbPost extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tb_post');
+        Schema::dropIfExists('posts');
     }
 }

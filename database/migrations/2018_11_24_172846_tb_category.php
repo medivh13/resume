@@ -13,8 +13,8 @@ class TbCategory extends Migration
      */
     public function up()
     {
-        if(!Schema::hasTable('tb_category')){
-            Schema::create('tb_category',function(Blueprint $table){
+        if(!Schema::hasTable('categories')){
+            Schema::create('categories',function(Blueprint $table){
               $table->increments('id');
               $table->string('name');
               $table->timestamps();
@@ -29,6 +29,6 @@ class TbCategory extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tb_category');
+        Schema::dropIfExists('categories');
     }
 }

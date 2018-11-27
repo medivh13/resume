@@ -13,8 +13,8 @@ class TbTag extends Migration
      */
     public function up()
     {
-        if(!Schema::hasTable('tb_tag')){
-            Schema::create('tb_tag',function(Blueprint $table){
+        if(!Schema::hasTable('tags')){
+            Schema::create('tags',function(Blueprint $table){
               $table->increments('id');
               $table->string('name');
               $table->timestamps();
@@ -29,6 +29,6 @@ class TbTag extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tb_tag');
+        Schema::dropIfExists('tags');
     }
 }

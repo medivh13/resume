@@ -13,8 +13,8 @@ class TbPostTag extends Migration
      */
     public function up()
     {
-        if(!Schema::hasTable('tb_post_tag')){
-            Schema::create('tb_post_tag',function(Blueprint $table){
+        if(!Schema::hasTable('post_tag')){
+            Schema::create('post_tag',function(Blueprint $table){
                 $table->increments('id');
                 $table->integer('post_id')->unsigned();
                 $table->integer('tag_id')->unsigned();
@@ -30,6 +30,6 @@ class TbPostTag extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tb_post_tag');
+        Schema::dropIfExists('post_tag');
     }
 }

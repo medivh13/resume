@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', 'FrontEnd\BlogController@index');
-
-Route::get('/jody-almaida', function(){
+// Route::resource('/', 'FrontEnd\BlogController');
+Route::get('/post/{slug}', 'FrontEnd\BlogController@post');
+Route::get('/', function(){
 	return view('welcome');
 });
 

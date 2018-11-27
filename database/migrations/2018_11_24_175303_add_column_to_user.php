@@ -37,7 +37,7 @@ class AddColumnToUser extends Migration
      */
     public function down()
     {
-         Schema::table('users', function (Blueprint $table) {
+        Schema::table('users', function (Blueprint $table) {
             $table->dropColumn('api_token');
             $table->dropColumn('is_admin');
             $table->dropColumn('reset_key');
