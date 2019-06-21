@@ -62,13 +62,7 @@ class BlogController extends Controller
      */
     public function show(Request $request)
     {
-        dd($request->all());
-        $post= Post::where('slug',$request->slug)->with('tags', 'category')
-                    // ->withCount('comments')
-                    // ->published()
-                    ->first();
-        dd($post);
-        return view('frontend.post', compact('post'));
+        
     }
 
     /**
@@ -112,7 +106,7 @@ class BlogController extends Controller
                     // ->withCount('comments')
                     // ->published()
                     ->first();
-        // dd($post);
+        // dd($post->file_name);
         return view('frontend.post', compact('post'));
     }
 }

@@ -38,8 +38,8 @@
 					</div>
 					<div class="col-md-3 col-sm-5 xs-view-right">
 						<div class="search-section center-block pull-right">
-							<form>
-								<input type="text" class="form-control" id="exampleInputName2" placeholder="Search">
+							<form method="get" action="{{url('/')}}">
+								<input type="text" class="form-control" id="exampleInputName2" name="search" placeholder="Search">
 								<button type="submit" class="btn btn-default btn-xs"><i class="fa fa-search"></i></button>
 							</form>
 						</div>
@@ -182,9 +182,9 @@
 								</div> -->
 								@forelse ($post as $key=>$val)
 								<div class="col-md-12 col-sm-6">
-									<a href=""><img src="{{ asset($val->file_name)}}" alt="Post"/></a>
+									<a href='{{ url("/post/{$val->slug}") }}'><img src="{{ asset($val->file_name)}}" alt="Post"/></a>
 									<div class="carousel-caption">
-										<a href="#"><h5 class="post-title">{{$val->title}}</h5></a>
+										<a href='{{ url("/post/{$val->slug}") }}'"><h5 class="post-title">{{$val->title}}</h5></a>
 										<div class="post-meta">
 											<span><a href=""><i class="fa fa-calendar-check-o post-meta-icon"></i> april 13, 2015 </a></span>
 											<!-- <span><a href="#"><i class="fa fa-comments post-meta-icon"></i> 50 </a></span> -->
@@ -211,12 +211,12 @@
 								@endforelse
 							</div>
 							<div class="item">
-								<a href=""><h4 class="post-title slide-title">Android Studio</h4></a>
 								@forelse ($android as $key=>$val)
+								<a href=""><h4 class="post-title slide-title">Android Studio</h4></a>
 								<div class="col-md-12 col-sm-6">
-									<a href=""><img src="{{ asset($val->file_name)}}" alt="Post"/></a>
+									<a href='{{ url("/post/{$val->slug}") }}'><img src="{{ asset($val->file_name)}}" alt="Post"/></a>
 									<div class="carousel-caption">
-										<a href="#"><h5 class="post-title">{{$val->title}}</h5></a>
+										<a href='{{ url("/post/{$val->slug}") }}'><h5 class="post-title">{{$val->title}}</h5></a>
 										<div class="post-meta">
 											<span><a href=""><i class="fa fa-calendar-check-o post-meta-icon"></i> april 13, 2015 </a></span>
 											<!-- <span><a href="#"><i class="fa fa-comments post-meta-icon"></i> 50 </a></span> -->
@@ -246,9 +246,9 @@
 								<a href=""><h4 class="post-title slide-title">Laravel</h4></a>
 								@forelse ($laravel as $key=>$val)
 								<div class="col-md-12 col-sm-6">
-									<a href=""><img src="{{ asset($val->file_name)}}" alt="Post"/></a>
+									<a href='{{ url("/post/{$val->slug}") }}'><img src="{{ asset($val->file_name)}}" alt="Post"/></a>
 									<div class="carousel-caption">
-										<a href="#"><h5 class="post-title">{{$val->title}}</h5></a>
+										<a href='{{ url("/post/{$val->slug}") }}'><h5 class="post-title">{{$val->title}}</h5></a>
 										<div class="post-meta">
 											<span><a href=""><i class="fa fa-calendar-check-o post-meta-icon"></i> april 13, 2015 </a></span>
 											<!-- <span><a href="#"><i class="fa fa-comments post-meta-icon"></i> 50 </a></span> -->
@@ -275,12 +275,12 @@
 								@endforelse
 							</div><!--item lg-->
 							<div class="item">
-								<a href=""><h4 class="post-title slide-title">Others</h4></a>
 								@forelse ($others as $key=>$val)
+								<a href=""><h4 class="post-title slide-title">Others</h4></a>
 								<div class="col-md-12 col-sm-6">
-									<a href=""><img src="{{ asset($val->file_name)}}" alt="Post"/></a>
+									<a href='{{ url("/post/{$val->slug}") }}'><img src="{{ asset($val->file_name)}}" alt="Post"/></a>
 									<div class="carousel-caption">
-										<a href="#"><h5 class="post-title">{{$val->title}}</h5></a>
+										<a href='{{ url("/post/{$val->slug}") }}'><h5 class="post-title">{{$val->title}}</h5></a>
 										<div class="post-meta">
 											<span><a href=""><i class="fa fa-calendar-check-o post-meta-icon"></i> april 13, 2015 </a></span>
 											<!-- <span><a href="#"><i class="fa fa-comments post-meta-icon"></i> 50 </a></span> -->

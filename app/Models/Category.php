@@ -9,15 +9,13 @@ class Category extends Model
 	protected $table = 'categories';
 	protected $fillable = ['name'];
 
-	protected static function boot()
-	{
+	protected static function boot(){
 		static::deleting(function ($category) {
 			$category->posts()->delete();
 		});
 	}
 
-	public function posts()
-	{
+	public function posts(){
 		return $this->hasMany(Post::class); //category punya banyak post
 	}
 }
