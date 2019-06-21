@@ -117,8 +117,8 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Software Engineer</h3>
               <div class="subheading mb-3">PT. Fiture Teknologi Inovasi</div>
-              <p>Vice lead in developing an ERP System as a company's product.</p>
-              <p>Lead a delegation team which is developing a custom ERP system for clients. My responsibilities are meet and translating client's requirement, Analyzing the data and system flow, designing the data's structure, and also programming. Using Laravel 5.5, NoSQL DB (MongoDB), Apache web server on ubuntu, Laravel Scheduler, and Laravel Queue.</p>
+              <p>- Vice lead in developing an ERP System as a company's product.</p>
+              <p>- Lead a delegation team which is developing a custom ERP system for clients. My responsibilities are meet and translating client's requirement, Analyzing the data and system flow, designing the data's structure, and also programming. Using Laravel 5.5, NoSQL DB (MongoDB), Apache web server on ubuntu, Laravel Scheduler, and Laravel Queue.</p>
               
             </div>
             <div class="resume-date text-md-right">
@@ -270,7 +270,7 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being together with my family, and reading.</p>
+          <p>Apart from being a web developer, I enjoy most of my time being together with my family, reading, and writting.</p>
           <p class="mb-0">I follow a number of slice of life, fiction, mystery, and fantasy genre movies and television drama. And I also spend my free time exploring the latest technolgy advancements in the front-end web development world.</p>
         </div>
       </section>
