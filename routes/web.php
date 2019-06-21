@@ -13,7 +13,10 @@
 
 // Route::resource('/', 'FrontEnd\BlogController');
 // Route::get('/post/{slug}', 'FrontEnd\BlogController@post');
-Route::get('/jody-almaida', function(){
+// Route::get('/jody-almaida', function(){
+// 	return view('welcome');
+// });
+Route::get('/', function(){
 	return view('welcome');
 });
 
